@@ -50,7 +50,7 @@ entry_round = tk.Entry()
 entry_round.grid(row=5, column=2, padx=10, pady=10, sticky='nswe', columnspan=4)
 
 combobox_selecionar_tipo = ttk.Combobox(values=lista_tipos)
-combobox_selecionar_tipo.grid(row=3, column=3, padx=10, pady=10, sticky='nswe', columnspan=4)
+combobox_selecionar_tipo.grid(row=3, column=3, padx=10, pady=10, sticky='nswe', columnspan=2)
 combobox_selecionar_versus = ttk.Combobox(values=lista_versus)
 combobox_selecionar_versus.grid(row=4, column=3, padx=10, pady=10, sticky='nswe', columnspan=4)
 combobox_selecionar_round = ttk.Combobox(values=lista_round)
